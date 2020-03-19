@@ -1,1 +1,27 @@
-// Navigation Styles here
+// Navigation Styles here 
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-bottom: 2px dashed @silver;
+
+    nav {
+        width: 44%;
+        .flex(center, center);
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: @color1;
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+    }
+}

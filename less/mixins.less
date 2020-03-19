@@ -1,1 +1,21 @@
 // Mixins in here
+
+// flexbox with centered alignment
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btn(@borderRad, @padding, @width, @text-align, @bgColor, @borderColor, @borderWidth, @borderStyle, @fontSize, @fontColor) {
+    border-radius: @borderRad;
+    padding: @padding;
+    width: @width;
+    text-align: @text-align;
+    background-color: @bgColor;
+    border-color: @borderColor;
+    border-width: @borderWidth;
+    border-style: @borderStyle;
+    font-size: @fontSize;
+    color: @fontColor;
+}
